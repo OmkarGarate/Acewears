@@ -1,16 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import img1 from "../../Images/Home-Assets/productNow1.png";
 import img11 from "../../Images/Home-Assets/productBack.png";
 import img2 from "../../Images/Home-Assets/Cart.png";
 import img3 from "../../Images/Home-Assets/DefaultLike.png";
-import img4 from "../../Images/Home-Assets/Cart On.png";
-import img5 from "../../Images/Home-Assets/Variant2Like.png";
+
 
 function SeasonSale() {
   return (
     <>
       <div className="sub-title">
-        <h2>Season Sale</h2>
+      <Link to="/season-sale-all" style={{ textDecoration: 'none',  cursor: 'pointer' }}>
+          <h2>Season Sale</h2>
+        </Link>
         <div className="product-section">
           <div className="product-row">
             <div className="product-item">

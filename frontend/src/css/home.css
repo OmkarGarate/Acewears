@@ -9,6 +9,7 @@
   font-family: "Roboto", sans-serif;
 }
 
+
 .horizontal-line {
   border-bottom: 2px solid #ff5921;
   margin: 20px 0;
@@ -47,12 +48,15 @@
 }
 .image-container {
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
 }
 .btn-Shop {
   position: absolute;
   bottom: 22px;
-  right: 44%;
+  right: 50%;
   transform: translateX(50%);
   padding: 10px 35px;
   width: 80%;
@@ -124,22 +128,30 @@
 .sub-title {
   margin: 3.5rem 5rem;
 }
+
 .sub-title h2 {
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
+  color: black;
 }
+
+.sub-title .trendingNow-text{
+  margin-bottom: 2rem;
+}
+
 .product-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 5rem;
 }
 .product-row {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .product-item {
   position: relative;
@@ -205,6 +217,7 @@
 }
 .product-offer {
   border: 2px solid #ff5921;
+  border-radius: 5px;
   font-size: 12px;
   font-weight: 900;
   padding: 4px;
@@ -394,4 +407,97 @@
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+/* Mens-Women Category Slider */
+
+.category-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  display: flex;
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+.slide img {
+  width: 80%;
+  height: auto;
+  margin: 2rem 10rem;
+  border: 2px solid #ff5921;
+  border-radius: 10px;
+}
+
+/* All Collection CSS */
+
+.sub-title h1 {
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 42.67px;
+  padding-bottom: 1rem;
+}
+.sub-title .result-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #989797;
+  padding-bottom: 1rem;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination .page-text{
+  font-family: "Montserrat", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.pagination .next-page-btn{
+  margin-left: 12px;
+  padding: 2px;
+  cursor: pointer;
+}
+.pagination button,
+.pagination span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  padding: 5px 10px;
+  margin: 0 6px;
+  border: none;
+  color: #767676;
+  background: white;
+  cursor: pointer;
+}
+
+.pagination button:disabled,
+.pagination span:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.pagination .active {
+  background-color: white;
+  color: #ff5921;
+  border: 2px solid #ff5921;
 }

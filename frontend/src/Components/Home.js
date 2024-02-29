@@ -7,6 +7,7 @@ import RecentUserReviews from "./Home-Comp/RecentUserReviews";
 import img1 from "../Images/Latest collection.png";
 import img2 from "../Images/Men-btn.png";
 import img3 from "../Images/Women-btn.png";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -25,11 +26,15 @@ function Home() {
         <div className="right-img">
           <div className="image-container">
             <img src={img2} alt="" />
-            <button className="btn-Shop">SHOP MEN'S</button>
+            <Link to="/mensCategory"> 
+              <button className="btn-Shop">SHOP MEN'S</button>
+            </Link>
           </div>
           <div className="image-container">
             <img src={img3} alt="" />
+            <Link to="/womensCategory"> 
             <button className="btn-Shop">SHOP WOMEN'S</button>
+            </Link>
           </div>
         </div>
       </div>
