@@ -8,6 +8,7 @@ import MenAllCollection from "./Components/All-Collection/MenAllCollection";
 import WomenAllCollection from "./Components/All-Collection/WomenAllCollection";
 import TrendingNowAll from "./Components/TrendingNowAll";
 import SeasonSaleAll from "./Components/SeasonSaleAll";
+import Wishlist from "./Components/Wishlist";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/womenAllCollections" element={<WomenAllCollection />} />
           <Route path="/trending-now-all" element={<TrendingNowAll />} />
           <Route path="/season-sale-all" element={<SeasonSaleAll />} />
+          <Route path="/wishlist" element={<Wishlist />} />
         </Routes>
       </Router>
     </>

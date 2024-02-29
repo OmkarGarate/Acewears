@@ -501,3 +501,20 @@ text-align: left;
   color: #ff5921;
   border: 2px solid #ff5921;
 }
+
+/* Wishlist CSS */
+.browse_other .browse-other-btn{
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 10px;
+  
+}
+
+.browse-other-link {
+  text-decoration: none;
+  color: inherit;
+}
