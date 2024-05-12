@@ -3,6 +3,7 @@ import '../css/cart.css'
 import backprint_t from '../Images/backprint_t.png'
 import cross from '../Images/cross.png'
 import arrow_back from '../Images/Arrow_back.png'
+import { Link } from 'react-router-dom'
 
 function Cart() {
   return (
@@ -115,9 +116,12 @@ function Cart() {
                     <p>Total</p>
                     <span>₹1896</span>
                 </div>
-                <div className="cartCheckoutBtn">
+                <Link to={'/billing'} >
+                    <div className="cartCheckoutBtn">
+
                     <button>Proceed to Checkout</button>
-                </div>
+                    </div>
+                </Link>
             </div>
             </div>
             <div className="cartBottom">
