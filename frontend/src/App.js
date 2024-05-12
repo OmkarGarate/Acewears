@@ -34,10 +34,10 @@ function App() {
 
     {/* <Cart/> */}
 
-    <AceWearSlider/>
+    {/* <AceWearSlider/> */}
 
     {/* <Order/> */}
-      {/* <Router>
+      <Router>
         <Navbar/>
         <Routes>
           
@@ -49,17 +49,17 @@ function App() {
           <Route path="/signin" element={<Signin/>}/>
           <Route path="/signup" element={<Signup/>}/>
           <Route path="/billing" element={<Billing/>}/>
-          <Route path="/cart" element={<Cart/>}/> */}
-          {/* <Route path="/" element={<Home />} />
+          <Route path="/cart" element={<Cart/>}/>
+          <Route path="/" element={<Home />} />
           <Route path="/mensCategory" element={<MensCategory />} />
           <Route path="/womensCategory" element={<WomensCategory />} />
           <Route path="/menAllCollections" element={<MenAllCollection />} />
           <Route path="/womenAllCollections" element={<WomenAllCollection />} />
           <Route path="/trending-now-all" element={<TrendingNowAll />} />
           <Route path="/season-sale-all" element={<SeasonSaleAll />} />
-          <Route path="/wishlist" element={<Wishlist />} /> */}
-        {/* </Routes> */}
-      {/* // </Router> */}
+          <Route path="/wishlist" element={<Wishlist />} />
+        </Routes>
+      </Router>
     </>
   );
 }
