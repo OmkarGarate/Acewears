@@ -3,6 +3,7 @@ import "../css/billing.css";
 import arrow_back from "../Images/Arrow_back.png";
 import backprint_t from "../Images/backprint_t.png";
 import cross from "../Images/cross.png";
+import { Link } from "react-router-dom";
 
 function Billing() {
 
@@ -144,10 +145,12 @@ function Billing() {
       <div className="billingMain">
         <div className="billingLeftMain">
           <div className="billingLeft">
+            <Link to={'/cart'}>
             <div className="backToCart">
               <img src={arrow_back} alt="arrow_back" />
               <p>Back to Cart</p>
             </div>
+            </Link>
             <div className="blHeading">
               <h1>Billing and Shipping</h1>
             </div>
@@ -411,9 +414,11 @@ function Billing() {
               <p>Total</p>
               <span>₹1896</span>
             </div>
+            <Link to={'/order'}>
             <div className="cartCheckoutBtn">
               <button>PLACE ORDER</button>
             </div>
+            </Link>
           </div>
         </div>
       </div>

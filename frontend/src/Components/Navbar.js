@@ -29,18 +29,20 @@ function Navbar() {
   return (
     <>
     <div className='navMain'>
+      <Link to={'/'}>
         <div className='logo'>ACEWEARS</div>
+      </Link>
         <div className='navComps'>
-            <Link>MEN</Link>
-            <Link>WOMEN</Link>
+            <Link to={'/menAllCollections'}>MEN</Link>
+            <Link to={'/womenAllCollections'}>WOMEN</Link>
             <div className='navSearchBar'>
                 <input type="text" placeholder='Search'/>
                 <img src={search} alt="search" />
             </div>
-            <Link>
+            <Link to={'/wishlist'}>
                 <img src={like} alt="like" />
             </Link>
-            <Link>
+            <Link to={'/cart'}>
                 <img src={cart} alt="cart" />
             </Link>
             <Link>
