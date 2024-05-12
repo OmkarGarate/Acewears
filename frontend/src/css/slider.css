@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .aceWearSlider {
+    width: 100%;
+  }
+  
+  .aceWearWindow {
+    /* border: 2px solid blue; */
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .aceWearImgs {
+    display: flex;
+    width: 300vw;
+    transition: transform 0.5s ease-in-out; 
+  }
+  
+  .aceWearImgs img {
+    border: 1px solid orangered;
+    border-radius: 10px;
+    width: 90vw;
+    height: 80vh;
+    margin: 50px 5vw;
+  }
+  
