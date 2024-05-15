@@ -16,8 +16,8 @@ function TrendingNow() {
           <div className="product-item">
             <img src={img1} alt="" className="hoverable" />
             <div className="hover-content">
-              <img src={img2} alt="" className="hover-img" />
-              <img src={img3} alt="" className="hover-img2" />
+            <Link to="/cart" style={{ textDecoration: 'none',  cursor: 'pointer' }}><img src={img2} alt="" className="hover-img" /></Link>
+              <Link to="/wishlist" style={{ textDecoration: 'none',  cursor: 'pointer' }}><img src={img3} alt="" className="hover-img2" /></Link>
             </div>
             <div className="product-details">
               <p className="model-type">Pink Overload Over - Sized T-shirt</p>
@@ -29,8 +29,8 @@ function TrendingNow() {
           <div className="product-item">
             <img src={img1} alt="" className="hoverable" />
             <div className="hover-content">
-              <img src={img2} alt="" className="hover-img" />
-              <img src={img3} alt="" className="hover-img2" />
+            <Link to="/cart" style={{ textDecoration: 'none',  cursor: 'pointer' }}><img src={img2} alt="" className="hover-img" /></Link>
+              <Link to="/wishlist" style={{ textDecoration: 'none',  cursor: 'pointer' }}><img src={img3} alt="" className="hover-img2" /></Link>
             </div>
             <div className="product-details">
               <p className="model-type">Pink Overload Over - Sized T-shirt</p>
@@ -42,8 +42,8 @@ function TrendingNow() {
           <div className="product-item">
             <img src={img1} alt="" className="hoverable" />
             <div className="hover-content">
-              <img src={img2} alt="" className="hover-img" />
-              <img src={img3} alt="" className="hover-img2" />
+            <Link to="/cart" style={{ textDecoration: 'none',  cursor: 'pointer' }}><img src={img2} alt="" className="hover-img" /></Link>
+              <Link to="/wishlist" style={{ textDecoration: 'none',  cursor: 'pointer' }}><img src={img3} alt="" className="hover-img2" /></Link>
             </div>
             <div className="product-details">
               <p className="model-type">Pink Overload Over - Sized T-shirt</p>
@@ -55,8 +55,8 @@ function TrendingNow() {
           <div className="product-item">
             <img src={img1} alt="" className="hoverable" />
             <div className="hover-content">
-              <img src={img2} alt="" className="hover-img" />
-              <img src={img3} alt="" className="hover-img2" />
+            <Link to="/cart" style={{ textDecoration: 'none',  cursor: 'pointer' }}><img src={img2} alt="" className="hover-img" /></Link>
+              <Link to="/wishlist" style={{ textDecoration: 'none',  cursor: 'pointer' }}><img src={img3} alt="" className="hover-img2" /></Link>
             </div>
             <div className="product-details">
               <p className="model-type">Pink Overload Over - Sized T-shirt</p>

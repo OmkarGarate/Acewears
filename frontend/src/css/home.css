@@ -194,6 +194,13 @@
   border: none;
 }
 
+.hover-content .hover-img-wishlist{
+  width: 70px;
+  height: auto;
+  margin-left: 20rem;
+  border: none;
+}
+
 .model-type {
   margin: 5px 35px;
   font-family: "Montserrat", sans-serif;

@@ -45,7 +45,7 @@ function Navbar() {
             <Link to={'/cart'}>
                 <img src={cart} alt="cart" />
             </Link>
-            <Link>
+            <Link to={'/order'}>
                 <img src={userProfImg} alt="userProfImg" />
             </Link>
         </div>

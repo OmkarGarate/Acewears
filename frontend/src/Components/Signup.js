@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../css/signup.css";
 import emailImg from "../Images/email.png";
 import lock from "../Images/lock.png";
@@ -52,6 +53,8 @@ function Signup() {
         <div className="signup">
           <div className="signupHeading">Create Account</div>
           <form action="">
+          
+
             <div className="signupContent" onClick={handleEmailClick}>
               <label htmlFor="" style={move}>
                 {" "}
@@ -99,7 +102,7 @@ function Signup() {
               <p>OR</p>
 
               <div className="loginBtn">
-                <button>LOG IN</button>
+              <Link to={'/signin'} style={{ textDecoration: 'none',  cursor: 'pointer' }}><button>LOG IN</button></Link>
               </div>
             </div>
           </form>
