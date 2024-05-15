@@ -4,6 +4,7 @@ import emailImg from "../Images/email.png";
 import lock from "../Images/lock.png";
 import show from "../Images/show.png";
 import hide from "../Images/hide.png";
+import { Link } from "react-router-dom";
 
 function Signin() {
   const [move, setMove] = useState();
@@ -99,7 +100,7 @@ function Signin() {
               <p>OR</p>
 
               <div className="loginBtn">
-                <button>REGISTER</button>
+                <Link to={'/signup'} style={{ textDecoration: 'none',  cursor: 'pointer' }}><button>REGISTER</button></Link> 
               </div>
             </div>
           </form>

@@ -24,7 +24,7 @@ function OrderLeft() {
         <h3 onClick={(e)=>handleClick("acd")} className={olh==="acd"? "olContentH3": ""}><Link  to={'/order/acdetails'}>Account Details</Link></h3>
         </div>
         <div className="olLogout">
-        <h3>Log out</h3>
+        <Link to={'/signin'} style={{ textDecoration: 'none',  cursor: 'pointer' }}><h3>Log out</h3></Link>
         </div>
     </div>
     

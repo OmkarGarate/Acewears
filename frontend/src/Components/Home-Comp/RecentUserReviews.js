@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import img1 from "../../Images/Latest collection.png";
 import img2 from "../../Images/Home-Assets/Star 2.png";
 
@@ -29,7 +30,9 @@ function RecentUserReviews() {
                  <img src={img2} alt="" />
                  <img src={img2} alt="" />
                 </span>
-                <button className="buy-now-button">Shop Now</button>
+
+
+                <Link to="/" style={{ textDecoration: 'none',  cursor: 'pointer' }}><button className="buy-now-button">Shop Now</button></Link>
               </div>
             </div>
           </div>
