@@ -19,6 +19,7 @@ import Navbar from "./Components/Navbar";
 import OrderHistory from "./Components/OrderHistory";
 import Addresses from "./Components/Addresses";
 import AcDetails from "./Components/AcDetails";
+import ProductPage from "./Components/ProductPage";
 
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
           <Route path="/trending-now-all" element={<TrendingNowAll />} />
           <Route path="/season-sale-all" element={<SeasonSaleAll />} />
           <Route path="/wishlist" element={<Wishlist />} />
+          <Route path="/product" element={<ProductPage />} />
         </Routes>
       </Router>
     </>
